@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💡 Feature Request
+    url: https://github.com/shopware/community-hub-feedback/discussions
+    about: For ideas and feature requests, please start a discussion.
+  - name: 🎓 Learning content
+    url: https://feedback.shopware.com/forums/963728-academy
+    about: For ideas and feedback on the learning content, please raise an idea here.
+  - name: 💬 Start a chat on Discord
+    url: https://discord.gg/shopware
+    about: Connect with the Shopware Community on Discord.
