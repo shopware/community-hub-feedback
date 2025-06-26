@@ -1,0 +1,25 @@
+name: 🐞 Bug report
+description: Create a bug report to help us improve
+title: "[BUG] "
+labels: 🐞 Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💙 Thank you for reporting this issue! Please fill out the following information.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Short description
+      placeholder: Describe the issue in a few words.
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: How can we reproduce the issue?
+      placeholder: Describe the issue in detail and how we can reproduce it. Please include screenshots or error messages if available.
+    validations:
+      required: true

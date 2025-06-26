@@ -1,0 +1,25 @@
+name: 🤖 Unexpected behavior
+description: There's something feeling off
+title: "[UNEXPECTED] "
+labels: ❌ Invalid
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💙 Thank you for reporting this topic! Please fill out the following information.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Short description
+      placeholder: Describe the unexpected behavior in a few words.
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: How can we reproduce this situation?
+      placeholder: Describe the unexpected behavior in detail and how we can reproduce it. It's very useful if you can describe what you were expecting to happen.
+    validations:
+      required: true
