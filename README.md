@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<a href="https://discord.gg/shopware" target="_blank" rel="noopener noreferrer">
+<a href="https://discord.com/channels/1308047705309708348/1357688930803126435" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/chat_on-discord-%235865F2" alt="Discord">
 </a>
 
