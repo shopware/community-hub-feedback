@@ -45,7 +45,7 @@ You can contribute in the following ways:
 ### 💡 Ideas & Feature Requests
 
 Have an idea to improve the Shopware Community Hub?
-Please start a [Discussion](https://github.com/shopware/community-hub-feedback/discussions) under the Ideas category. This allows other community members to:
+Please open a [Issue](https://github.com/shopware/community-hub-feedback/issues). Feature request issues will get migrated to a [Discussion](https://github.com/shopware/community-hub-feedback/discussions/categories/ideas-feature-requests). This allows other community members to:
 
 * Join the conversation
 * Provide input and use cases

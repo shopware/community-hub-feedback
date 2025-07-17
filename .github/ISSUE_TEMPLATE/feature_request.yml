@@ -1,0 +1,43 @@
+name: 💡 Feature Request / Idea
+description: Suggest a feature or improvement to help us make the project better!
+title: "[IDEA] "
+labels: 💡 Feature Request, issue-to-discussion
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙏 **Thank you for taking the time to suggest an idea or feature!**
+        Please provide as much detail as possible so we can fully understand and discuss your request.
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What problem do you want to solve, and what is your idea or preferred solution?
+      placeholder: |
+        Please describe:
+        • Why is this feature important or useful to you (your motivation)?
+        • What would the feature or solution look like in practice?
+        • How should it work in your opinion?
+        • (Optional) Have you considered alternative solutions?
+        • (Optional) Any additional context, screenshots, or examples?
+      value: |
+        **Motivation/Problem:**  
+        _Why do you want this? What problem would it solve for you or others?_
+
+        **Proposed Solution/Idea:**  
+        _How do you imagine the feature should work? What is your idea or suggestion?_
+
+        **Alternative solutions considered (optional):**  
+        _Have you thought of other ways to solve this?_
+
+        **Additional context (optional):**  
+        _Add any extra information, context, screenshots or links here._
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ⚠️ **Important:**  
+        Please do not remove the `issue-to-discussion` label, otherwise your issue will not be migrated to a discussion automatically.
