@@ -1,0 +1,29 @@
+name: Issue to Discussion
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  issue-to-discussion:
+    if: github.event.label.name == 'issue-to-discussion'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install @octokit/graphql node-fetch@2
+
+      - name: Create GitHub Discussion
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: node .github/scripts/create-discussion.js
