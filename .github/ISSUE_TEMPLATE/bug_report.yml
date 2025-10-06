@@ -8,14 +8,6 @@ body:
       value: |
         💙 Thank you for reporting this issue! Please fill out the following information.
 
-  - type: input
-    id: summary
-    attributes:
-      label: Short description
-      placeholder: Describe the issue in a few words.
-    validations:
-      required: true
-
   - type: textarea
     id: details
     attributes:
